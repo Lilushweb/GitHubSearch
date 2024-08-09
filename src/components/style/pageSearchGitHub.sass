@@ -1,0 +1,56 @@
+.head
+    position: fixed
+    left: 0px
+    top: 0px
+    background: #00838F
+    display: flex
+    justify-content: flex-start
+    gap: 10px
+    height: 48px
+    width: 100vw
+    padding: 16px
+    z-index: 2
+.customTextField
+
+    & .MuiOutlinedInput-root
+        background-color: #fff
+        background-radius: 4px
+        & fieldset
+            border-color: black
+
+        &:hover fieldset
+            border-color: black
+
+        &.Mui-focused fieldset
+            border-color: black
+.hello
+    position: absolute
+    left: 40%
+    top: 45%
+    font-family: 'Roboto'
+    font-size: 46px
+    font-weight: 400
+    text-align: center
+    color: #4F4F4F
+
+footer
+    position: fixed
+    bottom: 0px
+    left: 0px
+    font-family: 'Roboto'
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100vw
+    height: 80px
+    background: white
+.boxNavigate
+    width: 48px
+    height: 48px
+    display: flex
+    justify-content: center
+    align-items: center
+
+    @media(max-width: 1400px)
+        footer
+            justify-content: flex-start
